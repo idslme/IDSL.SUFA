@@ -11,3 +11,4 @@ A simplified version of the 'IDSL.UFA' package to calculate isotopic profiles an
 
 ##
 Visit https://ipc.idsl.me/ to see the isotopic profile calculation interface
+
