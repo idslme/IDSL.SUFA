@@ -10,10 +10,13 @@
 
 A simplified version of the 'IDSL.UFA' package to calculate isotopic profiles and adduct formulas from molecular formulas with no dependency on other R packages for online tools. The IDSL.SUFA package has functions to process user-defined adduct formulas.
 
+	install.packages("IDSL.SUFA")
+
 ##
 Main function:
 
-	isotopic_profile_molecular_formula_feeder_simplified(molecular_formula, IonPathways = "[M]+", peak_spacing = 0, intensity_cutoff = 1)
+	isotopic_profile_molecular_formula_feeder_simplified(molecular_formula,
+	IonPathways = "[M]+", peak_spacing = 0, intensity_cutoff = 1)
 
 ***molecular_formula:*** A molecular formulas
 
