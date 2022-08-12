@@ -26,7 +26,8 @@ Main function:
 
 ***item{intensity_cutoff:*** A minimum intesnity threshold for isotopic profiles in percentage.
 
-example:
+**example:**
+
 	Isotopic_Profile <- isotopic_profile_molecular_formula_feeder_simplified(molecular_formula = "H2O", IonPathways = "[M]+", peak_spacing = 0, intensity_cutoff = 1)
 
 ##
