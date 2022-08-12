@@ -1,6 +1,7 @@
-# IDSL.SUFA
+# IDSL.SUFA<img src='SUFA_educational_files/Figures/IDSL.SUFA-logo.png' width="250px" align="right" />
 
 <!-- badges: start -->
+[![Maintainer](https://img.shields.io/badge/maintainer-Sadjad_Fakouri_Baygi-blue)](https://github.com/sajfb)
 [![CRAN status](https://www.r-pkg.org/badges/version/IDSL.SUFA)](https://cran.r-project.org/package=IDSL.SUFA)
 ![](http://cranlogs.r-pkg.org/badges/IDSL.SUFA?color=orange)
 ![](http://cranlogs.r-pkg.org/badges/grand-total/IDSL.SUFA?color=brightgreen)
@@ -8,6 +9,22 @@
 <!-- badges: end -->
 
 A simplified version of the 'IDSL.UFA' package to calculate isotopic profiles and adduct formulas from molecular formulas with no dependency on other R packages for online tools. The IDSL.SUFA package has functions to process user-defined adduct formulas.
+
+##
+Main function:
+
+	isotopic_profile_molecular_formula_feeder_simplified(molecular_formula, IonPathways = "[M]+", peak_spacing = 0, intensity_cutoff = 1)
+
+***molecular_formula:*** A molecular formulas
+
+***item{IonPathways:*** An ionization pathways. Pathways should be like [Coeff*M+ADD1-DED1+...] where "Coeff" should be an integer between 1-9 and ADD1 and DED1 may be ionization pathways. ex: 'IonPathways <- c("[M]+", "[M+H]+", "[2M-Cl]-", "[3M+CO2-H2O+Na-KO2+HCl-NH4]-")'
+
+***item{peak_spacing:*** A maximum space between isotopologues in Da to merge neighboring isotoplogues.
+
+***item{intensity_cutoff:*** A minimum intesnity threshold for isotopic profiles in percentage.
+
+example:
+	Isotopic_Profile <- isotopic_profile_molecular_formula_feeder_simplified(molecular_formula = "H2O", IonPathways = "[M]+", peak_spacing = 0, intensity_cutoff = 1)
 
 ##
 Visit https://ipc.idsl.me/ to see the isotopic profile calculation interface
