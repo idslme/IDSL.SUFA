@@ -20,11 +20,11 @@ Main function:
 
 ***molecular_formula:*** A molecular formulas
 
-***item{IonPathways:*** An ionization pathways. Pathways should be like [Coeff*M+ADD1-DED1+...] where "Coeff" should be an integer between 1-9 and ADD1 and DED1 may be ionization pathways. ex: 'IonPathways <- c("[M]+", "[M+H]+", "[2M-Cl]-", "[3M+CO2-H2O+Na-KO2+HCl-NH4]-")'
+***IonPathways:*** An ionization pathways. Pathways should be like [Coeff*M+ADD1-DED1+...] where "Coeff" should be an integer between 1-9 and ADD1 and DED1 may be ionization pathways. ex: 'IonPathways <- c("[M]+", "[M+H]+", "[2M-Cl]-", "[3M+CO2-H2O+Na-KO2+HCl-NH4]-")'
 
-***item{peak_spacing:*** A maximum space between isotopologues in Da to merge neighboring isotoplogues.
+***peak_spacing:*** A maximum space between isotopologues in Da to merge neighboring isotoplogues.
 
-***item{intensity_cutoff:*** A minimum intesnity threshold for isotopic profiles in percentage.
+***intensity_cutoff:*** A minimum intesnity threshold for isotopic profiles in percentage.
 
 **example:**
 
