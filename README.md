@@ -8,7 +8,7 @@
 [![Dependencies](https://tinyverse.netlify.com/badge/IDSL.SUFA)](https://cran.r-project.org/package=IDSL.SUFA)
 <!-- badges: end -->
 
-A simplified version of the 'IDSL.UFA' package to calculate isotopic profiles and adduct formulas from molecular formulas with no dependency on other R packages for online tools. The IDSL.SUFA package has functions to process user-defined adduct formulas.
+A simplified version of the [**IDSL.UFA**](https://github.com/idslme/IDSL.UFA) package to calculate isotopic profiles and adduct formulas from molecular formulas with no dependency on other R packages for online tools. The IDSL.SUFA package has functions to process user-defined adduct formulas.
 
 	install.packages("IDSL.SUFA")
 
