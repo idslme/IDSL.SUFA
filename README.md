@@ -17,6 +17,8 @@ Main function:
 
 	isotopic_profile_molecular_formula_feeder_simplified(molecular_formula,
 	IonPathways = "[M]+", peak_spacing = 0, intensity_cutoff = 1)
+	
+	formula_adduct_calculator(molecular_formula, IonPathways)
 
 ***molecular_formula:*** A molecular formulas
 
@@ -26,9 +28,13 @@ Main function:
 
 ***intensity_cutoff:*** A minimum intensity threshold for isotopic profiles in percentage.
 
-**example:**
+**example 1:**
 
-	Isotopic_Profile <- isotopic_profile_molecular_formula_feeder_simplified(molecular_formula = "H2O")
+	Isotopic_Profile <- isotopic_profile_molecular_formula_feeder_simplified(molecular_formula = "H2O") # Isotopic profile of water
+	
+**example 2:**
+	
+	Adduct_Formula <- formula_adduct_calculator(molecular_formula = "C8HF15O2", IonPathways = "[M-HCO2]-") # PFOA losing carboxylic acid group
 
 
 Visit https://ipc.idsl.me/ to see the isotopic profile calculation interface
