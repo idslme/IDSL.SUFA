@@ -33,3 +33,6 @@ Main function:
 
 Visit https://ipc.idsl.me/ to see the isotopic profile calculation interface
 
+## Citation
+Fakouri Baygi, S., Kumar, Y. Barupal, D.K. [IDSL.UFA assigns high confidence molecular formula annotations for untargeted LC/HRMS datasets in metabolomics and exposomics](https://www.biorxiv.org/content/10.1101/2022.02.02.478834v2). *bioRxiv*, **2022**.
+
