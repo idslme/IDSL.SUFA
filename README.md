@@ -28,15 +28,16 @@ Main function:
 
 ***intensity_cutoff:*** A minimum intensity threshold for isotopic profiles in percentage.
 
+##
 **example 1:** Isotopic profile of water
 
 	Isotopic_Profile <- isotopic_profile_molecular_formula_feeder_simplified(molecular_formula = "H2O")
-	
+##	
 **example 2:** PFOA (C<sub>8</sub>HF<sub>15</sub>O<sub>2</sub>) losing carboxylic acid group
 	
 	Adduct_Formula <- formula_adduct_calculator(molecular_formula = "C8HF15O2", IonPathways = "[M-HCO2]-")
 
-
+##
 Visit https://ipc.idsl.me/ to see the isotopic profile calculation interface
 
 ## Citation
