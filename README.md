@@ -12,7 +12,7 @@ A simplified version of the 'IDSL.UFA' package to calculate isotopic profiles an
 
 	install.packages("IDSL.SUFA")
 
-##
+## Workflow
 Main function:
 
 	isotopic_profile_molecular_formula_feeder_simplified(molecular_formula,
@@ -20,16 +20,16 @@ Main function:
 
 ***molecular_formula:*** A molecular formulas
 
-***IonPathways:*** An ionization pathways. Pathways should be like [Coeff*M+ADD1-DED1+...] where "Coeff" should be an integer between 1-9 and ADD1 and DED1 may be ionization pathways. ex: 'IonPathways <- c("[M]+", "[M+H]+", "[2M-Cl]-", "[3M+CO2-H2O+Na-KO2+HCl-NH4]-")'
+***IonPathways:*** An ionization pathway. Pathways should be like [Coeff*M+ADD1-DED1+...] where "Coeff" should be an integer between 1-9 and ADD1 and DED1 may be ionization pathways. ex: 'IonPathways <- c("[M]+", "[M+H]+", "[2M-Cl]-", "[3M+CO2-H2O+Na-KO2+HCl-NH4]-")'
 
-***peak_spacing:*** A maximum space between isotopologues in Da to merge neighboring isotoplogues.
+***peak_spacing:*** A maximum space between isotopologues in Da to merge neighboring isotopologues.
 
-***intensity_cutoff:*** A minimum intesnity threshold for isotopic profiles in percentage.
+***intensity_cutoff:*** A minimum intensity threshold for isotopic profiles in percentage.
 
 **example:**
 
-	Isotopic_Profile <- isotopic_profile_molecular_formula_feeder_simplified(molecular_formula = "H2O", IonPathways = "[M]+", peak_spacing = 0, intensity_cutoff = 1)
+	Isotopic_Profile <- isotopic_profile_molecular_formula_feeder_simplified(molecular_formula = "H2O")
 
-##
+
 Visit https://ipc.idsl.me/ to see the isotopic profile calculation interface
 
