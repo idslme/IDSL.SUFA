@@ -16,7 +16,7 @@ A simplified version of the [**IDSL.UFA**](https://github.com/idslme/IDSL.UFA) p
 Main function:
 
 	isotopic_profile_molecular_formula_feeder_simplified(molecular_formula,
-	IonPathways = "[M]+", peak_spacing = 0, intensity_cutoff = 1)
+					IonPathways = "[M]+", peak_spacing = 0, intensity_cutoff = 1)
 	
 	formula_adduct_calculator(molecular_formula, IonPathways)
 
