@@ -29,9 +29,11 @@ Main function:
 ***intensity_cutoff:*** A minimum intensity threshold for isotopic profiles in percentage.
 
 ##
-**example 1:** Isotopic profile of water
+**example 1:** Isotopic profile of selenomethionine (C<sub>5</sub>)H<sub>11</sub>)NO<sub>2</sub>)Se)
 
-	Isotopic_Profile <- isotopic_profile_molecular_formula_feeder_simplified(molecular_formula = "H2O")
+	Isotopic_Profile <- isotopic_profile_molecular_formula_feeder_simplified(molecular_formula = "C5H11NO2Se")
+	####
+	plot(Isotopic_Profile[, 1], Isotopic_Profile[, 2], type = "h", xlab = "Theoretical mass (Da)", ylab = "Theoretical intensity (%)")
 ##	
 **example 2:** PFOA (C<sub>8</sub>HF<sub>15</sub>O<sub>2</sub>) losing carboxylic acid group
 	
