@@ -29,7 +29,7 @@ Main function:
 ***intensity_cutoff:*** A minimum intensity threshold for isotopic profiles in percentage.
 
 ##
-**example 1:** Isotopic profile of selenomethionine (C<sub>5</sub>)H<sub>11</sub>)NO<sub>2</sub>)Se)
+**example 1:** Isotopic profile of selenomethionine (C<sub>5</sub>H<sub>11</sub>NO<sub>2</sub>Se)
 
 	Isotopic_Profile <- isotopic_profile_molecular_formula_feeder_simplified(molecular_formula = "C5H11NO2Se")
 	####
