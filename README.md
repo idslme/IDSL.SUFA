@@ -16,13 +16,13 @@ A simplified version of the [**IDSL.UFA**](https://github.com/idslme/IDSL.UFA) p
 Main function:
 
 	isotopic_profile_molecular_formula_feeder_simplified(molecular_formula,
-					IonPathways = "[M]+", peak_spacing = 0, intensity_cutoff = 1)
+					IonPathway = "[M]+", peak_spacing = 0, intensity_cutoff = 1)
 	
-	formula_adduct_calculator(molecular_formula, IonPathways)
+	formula_adduct_calculator(molecular_formula, IonPathway)
 
 ***molecular_formula:*** A molecular formulas
 
-***IonPathways:*** An ionization pathway. Pathways should be like [Coeff*M+ADD1-DED1+...] where "Coeff" should be an integer between 1-9 and ADD1 and DED1 may be ionization pathways. ex: 'IonPathways <- c("[M]+", "[M+H]+", "[2M-Cl]-", "[3M+CO2-H2O+Na-KO2+HCl-NH4]-")'
+***IonPathway:*** An ionization pathway. Pathways should be like [Coeff*M+ADD1-DED1+...] where "Coeff" should be an integer between 1-9 and ADD1 and DED1 may be ionization pathways. ex: 'IonPathway <- c("[M]+", "[M+H]+", "[2M-Cl]-", "[3M+CO2-H2O+Na-KO2+HCl-NH4]-")'
 
 ***peak_spacing:*** A maximum space between isotopologues in *Da* to merge neighboring isotopologues.
 
@@ -37,11 +37,10 @@ Main function:
 ##	
 **example 2:** PFOA (C<sub>8</sub>HF<sub>15</sub>O<sub>2</sub>) losing carboxylic acid group
 	
-	Adduct_Formula <- formula_adduct_calculator(molecular_formula = "C8HF15O2", IonPathways = "[M-HCO2]-")
+	Adduct_Formula <- formula_adduct_calculator(molecular_formula = "C8HF15O2", IonPathway = "[M-HCO2]-")
 
 ##
 Visit https://ipc.idsl.me/ to see the isotopic profile calculation interface
 
 ## Citation
-Fakouri Baygi, S., Kumar, Y. Barupal, D.K. [IDSL.UFA assigns high confidence molecular formula annotations for untargeted LC/HRMS datasets in metabolomics and exposomics](https://www.biorxiv.org/content/10.1101/2022.02.02.478834v2). *bioRxiv*, **2022**.
-
+Fakouri Baygi, S., Banerjee S. K., Chakraborty P., Kumar, Y. Barupal, D.K. [IDSL.UFA assigns high confidence molecular formula annotations for untargeted LC/HRMS datasets in metabolomics and exposomics](https://pubs.acs.org/doi/10.1021/acs.analchem.2c00563). *Analytical Chemistry*, **2022**, *94(39)*, 13315–13322.

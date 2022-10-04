@@ -1,1 +1,1 @@
-utils::globalVariables(c("UFA_memeory_variables", "IUPAC_Isotopes", "intensity_cutoff"))
+utils::globalVariables(c("IUPAC_Isotopes"))

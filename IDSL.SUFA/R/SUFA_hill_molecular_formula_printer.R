@@ -18,8 +18,8 @@ SUFA_hill_molecular_formula_printer <- function(Elements, MolVecMat) {
   ##
   MolVecMat <- matrix(MolVecMat, ncol = L_Hill_Elements)
   ##
-  MolFormList <- do.call(rbind, lapply(1:dim(MolVecMat)[1], function(k) {
-    MolFor <- c()
+  MolFormList <- do.call(c, lapply(1:dim(MolVecMat)[1], function(k) {
+    MolFor <- NULL
     MolVec <- MolVecMat[k, ]
     for (i in 1:L_Hill_Elements) {
       x_vec <- x_alpha_hill[i]
