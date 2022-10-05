@@ -28,7 +28,7 @@ Main function:
 
 ***intensity_cutoff:*** A minimum intensity threshold for isotopic profiles in percentage.
 
-Visit [**wiki**](https://github.com/idslme/IDSL.UFA/wiki) for tutorials on [**Definition of Peak Spacing and Intensity Cutoff**](https://github.com/idslme/IDSL.UFA/wiki/Peak-Spacing-and-Intensity-Cutoff)
+Visit [**wiki**](https://github.com/idslme/IDSL.UFA/wiki) for tutorials on [**Definitions of Peak Spacing and Intensity Cutoff**](https://github.com/idslme/IDSL.UFA/wiki/Peak-Spacing-and-Intensity-Cutoff)
 
 ##
 **example 1:** Isotopic profile of selenomethionine (C<sub>5</sub>H<sub>11</sub>NO<sub>2</sub>Se)
