@@ -28,15 +28,19 @@ Main function:
 
 ***intensity_cutoff:*** A minimum intensity threshold for isotopic profiles in percentage.
 
+Visit [**wiki**](https://github.com/idslme/IDSL.UFA/wiki) for tutorials on [**Definition of Peak Spacing and Intensity Cutoff**](https://github.com/idslme/IDSL.UFA/wiki/Peak-Spacing-and-Intensity-Cutoff)
+
 ##
 **example 1:** Isotopic profile of selenomethionine (C<sub>5</sub>H<sub>11</sub>NO<sub>2</sub>Se)
 
+	library(IDSL.SUFA)
 	Isotopic_Profile <- isotopic_profile_molecular_formula_feeder_simplified(molecular_formula = "C5H11NO2Se")
 	####
 	plot(Isotopic_Profile[, 1], Isotopic_Profile[, 2], type = "h", xlab = "Theoretical mass (Da)", ylab = "Theoretical intensity (%)")
 ##	
 **example 2:** PFOA (C<sub>8</sub>HF<sub>15</sub>O<sub>2</sub>) losing carboxylic acid group
 	
+	library(IDSL.SUFA)
 	Adduct_Formula <- formula_adduct_calculator(molecular_formula = "C8HF15O2", IonPathway = "[M-HCO2]-")
 
 ##
