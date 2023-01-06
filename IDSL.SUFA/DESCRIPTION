@@ -1,7 +1,7 @@
 Package: IDSL.SUFA
 Type: Package
 Title: Simplified UFA
-Version: 1.1
+Version: 1.2
 Authors@R: c(
     person(family = "Fakouri-Baygi", given = "Sadjad", email = "sadjad.fakouri-baygi@mssm.edu",
     role = c("cre","aut"), comment = c(ORCID = "0000-0002-6864-6911")),
@@ -17,5 +17,4 @@ URL: https://ufa.idsl.me,
         https://github.com/idslme/idsl.sufa
 BugReports: https://github.com/idslme/idsl.sufa/issues
 Encoding: UTF-8
-LazyData: true
 Archs: i386, x64
