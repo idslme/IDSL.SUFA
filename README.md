@@ -33,9 +33,9 @@ Main functions:
 
 ***IonPathway:*** An ionization pathway (also known as [adduct type]((https://github.com/idslme/IDSL.UFA/wiki/Standard-Adduct-Type))). Pathways should be like [*Coeff*M+ADD1-DED1+...] where *Coeff* should be an integer between 1-9 and ADD1 and DED1 may be ionization pathways. ex: 'IonPathway <- c("[M]+", "[M+H]+", "[2M-Cl]-", "[3M+CO2-H2O+Na-KO2+HCl-NH4]-")'
 
-***UFA_IP_memeory_variables:*** A vector of three variables. Default values are c(1e30, 1e-12, 100) to manage memory usage. UFA_IP_memeory_variables[1] is used to control the overall size of isotopic combinations. UFA_IP_memeory_variables[2] indicates the minimum relative abundance (RA calculated by eq(1) in the reference [2]) of an isotopologue to include in the isotopic profile calculations. UFA_IP_memeory_variables[3] is the maximum elapsed time to calculate the isotopic profile on the `setTimeLimit` function of base R.
+***UFA_IP_memeory_variables:*** A vector of three variables. Default values are c(1e30, 1e-12, 100) to manage memory usage. UFA_IP_memeory_variables[1] is used to control the overall size of isotopic combinations. UFA_IP_memeory_variables[2] indicates the minimum relative abundance (RA calculated by eq(1) in the reference [2]) of an isotopologue to include in the isotopic profile calculations. UFA_IP_memeory_variables[3] is the maximum elapsed time in seconds to calculate the isotopic profile on the `setTimeLimit` function of base R.
 
-***plotProfile:*** c(TRUE, FALSE). A `TRUE` plotProfile generates a spectra plot.
+***plotProfile:*** c(TRUE, FALSE). A `TRUE` **plotProfile** generates a spectra plot.
 
 ***allowedVerbose:*** c(TRUE, FALSE). A `TRUE` **allowedVerbose** provides messages about the flow of the function.
 
