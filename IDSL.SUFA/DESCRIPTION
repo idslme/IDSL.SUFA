@@ -14,7 +14,7 @@ Maintainer: Sadjad Fakouri-Baygi <sadjad.fakouri-baygi@mssm.edu>
 Description: A simplified version of the 'IDSL.UFA' package to calculate isotopic profiles and adduct formulas from molecular formulas with no dependency on other R packages for online tools. The IDSL.SUFA package has functions to process user-defined adduct formulas.
 License: MIT + file LICENSE
 URL: https://ipc.idsl.me,
-        https://github.com/idslme/idsl.sufa
+     https://github.com/idslme/idsl.sufa
 BugReports: https://github.com/idslme/idsl.sufa/issues
 Encoding: UTF-8
 Archs: i386, x64

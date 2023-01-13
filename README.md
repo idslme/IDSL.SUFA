@@ -10,6 +10,8 @@
 
 A simplified version of the [**IDSL.UFA**](https://github.com/idslme/IDSL.UFA) package to calculate isotopic profiles and adduct formulas from molecular formulas with no dependency on other R packages for online tools. The IDSL.SUFA package has functions to process user-defined adduct formulas.
 
+## Installation
+
 	install.packages("IDSL.SUFA")
 
 ## Workflow
@@ -65,6 +67,6 @@ Visit https://ipc.idsl.me/ to see the isotopic profile calculation interface
 ## Citation
 [1] Fakouri Baygi, S., Banerjee S. K., Chakraborty P., Kumar, Y. Barupal, D.K. [IDSL.UFA assigns high confidence molecular formula annotations for untargeted LC/HRMS datasets in metabolomics and exposomics](https://pubs.acs.org/doi/10.1021/acs.analchem.2c00563). *Analytical Chemistry*, **2022**, *94(39)*, 13315–13322.
 
-[2] Fakouri Baygi, S., Crimmins, B.S., Hopke, P.K. Holsen, T.M. [Comprehensive emerging chemical discovery: novel polyfluorinated compounds in Lake Michigan trout](https://pubs.acs.org/doi/10.1021/acs.est.6b01349). *Environmental Science and Technology}*, **2016**, *50(17)*, 9460-9468.
+[2] Fakouri Baygi, S., Crimmins, B.S., Hopke, P.K. Holsen, T.M. [Comprehensive emerging chemical discovery: novel polyfluorinated compounds in Lake Michigan trout](https://pubs.acs.org/doi/10.1021/acs.est.6b01349). *Environmental Science and Technology*, **2016**, *50(17)*, 9460-9468.
 
 [3] Fakouri Baygi, S., Fernando, S., Hopke, P.K., Holsen, T.M. and Crimmins, B.S. [Automated Isotopic Profile Deconvolution for High Resolution Mass Spectrometric Data (APGC-QToF) from Biological Matrices](https://pubs.acs.org/doi/10.1021/acs.analchem.9b03335). *Analytical chemistry*, **2019**, *91(24)*, 15509-15517.
