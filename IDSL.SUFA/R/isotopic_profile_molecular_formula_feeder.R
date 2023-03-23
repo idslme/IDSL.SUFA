@@ -52,8 +52,8 @@ isotopic_profile_molecular_formula_feeder <- function(molecular_formula, peak_sp
     if (!is.na(SUFAstrCharge)) {
       IonFormula <- SUFA_hill_molecular_formula_printer(Elements, MoleFormVec)
       plot(IPP[, 1], IPP[, 2], type = "h", lend = 2, ylim = c(0, 105),
-           lwd = 2, lend = 2, col = "red", cex = 4, xlab = "m/z", ylab = "Intensity (%)", yaxs = "i")
-      mtext(text = paste0("[", IonFormula, "]", SUFAstrCharge), side = 3, adj = 0.5, line = 0.25, cex = 1.1)
+           lwd = 4, lend = 2, col = "red", cex = 4, xlab = "m/z", ylab = "Intensity (%)", yaxs = "i")
+      graphics::mtext(text = paste0("[", IonFormula, "]", SUFAstrCharge), side = 3, adj = 0.5, line = 0.25, cex = 1.1)
     }
   }
   ##

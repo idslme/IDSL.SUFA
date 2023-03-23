@@ -1,14 +1,14 @@
 # IDSL.SUFA<img src='SUFA_educational_files/Figures/IDSL.SUFA-logo.png' width="250px" align="right" />
 
 <!-- badges: start -->
-[![Maintainer](https://img.shields.io/badge/maintainer-Sadjad_Fakouri_Baygi-blue)](https://github.com/sajfb)
+[![Creator](https://img.shields.io/badge/Creator-Sadjad_Fakouri_Baygi-blue)](https://github.com/sajfb)
 [![CRAN status](https://www.r-pkg.org/badges/version/IDSL.SUFA)](https://cran.r-project.org/package=IDSL.SUFA)
 ![](http://cranlogs.r-pkg.org/badges/IDSL.SUFA?color=orange)
 ![](http://cranlogs.r-pkg.org/badges/grand-total/IDSL.SUFA?color=brightgreen)
 [![Dependencies](https://tinyverse.netlify.com/badge/IDSL.SUFA)](https://cran.r-project.org/package=IDSL.SUFA)
 <!-- badges: end -->
 
-A simplified version of the [**IDSL.UFA**](https://github.com/idslme/IDSL.UFA) package to calculate isotopic profiles and adduct formulas from molecular formulas with no dependency on other R packages for online tools. The IDSL.SUFA package has functions to process user-defined adduct formulas.
+A simplified version of the [**IDSL.UFA**](https://github.com/idslme/IDSL.UFA) package to calculate isotopic profiles and adduct formulas from molecular formulas with no dependency on other R packages for online tools and educational mass spectrometry courses. The IDSL.SUFA package has functions to process user-defined adduct formulas.
 
 ## Installation
 
@@ -33,7 +33,7 @@ Main functions:
 
 ***intensity_cutoff:*** A minimum intensity threshold for isotopic profiles in percentage.
 
-***IonPathway:*** An ionization pathway (also known as [adduct type]((https://github.com/idslme/IDSL.UFA/wiki/Standard-Adduct-Type))). Pathways should be like [*Coeff*M+ADD1-DED1+...] where *Coeff* should be an integer between 1-9 and ADD1 and DED1 may be ionization pathways. ex: 'IonPathway <- c("[M]+", "[M+H]+", "[2M-Cl]-", "[3M+CO2-H2O+Na-KO2+HCl-NH4]-")'
+***IonPathway:*** An ionization pathway (also known as [adduct type]((https://github.com/idslme/IDSL.UFA/wiki/Standard-Adduct-Type))). Pathways should be like [*Coeff*M+ADD1-DED1+...] where *Coeff* should be an integer between 1-9 and ADD1 and DED1 represent gain and loss formulas, respectively. ex: 'IonPathway <- c("[M]+", "[M+H]+", "[2M-Cl]-", "[3M+CO2-H2O+Na-KO2+HCl-NH4]-")'
 
 ***UFA_IP_memeory_variables:*** A vector of three variables. Default values are c(1e30, 1e-12, 100) to manage memory usage. UFA_IP_memeory_variables[1] is used to control the overall size of isotopic combinations. UFA_IP_memeory_variables[2] indicates the minimum relative abundance (RA calculated by eq(1) in the reference [2]) of an isotopologue to include in the isotopic profile calculations. UFA_IP_memeory_variables[3] is the maximum elapsed time in seconds to calculate the isotopic profile on the `setTimeLimit` function of base R.
 
@@ -49,7 +49,7 @@ Visit [**wiki**](https://github.com/idslme/IDSL.UFA/wiki) for detailed documenta
 	library(IDSL.SUFA)
 	Isotopic_Profile <- isotopic_profile_molecular_formula_feeder(molecular_formula = "C5H11NO2Se")
 	
-## Labeled molecular formulas
+#### Labeled molecular formulas
 **example 2:** Isotopic profile of MBDD-2378 => 2,3,7,8-Tetrabromo(<sup>13</sup>C<sub>12</sub>)dibenzo-*p*-dioxin => <sup>13</sup>C<sub>12</sub>H<sub>4</sub>Br<sub>4</sub>O<sub>2</sub>
 
 	library(IDSL.SUFA)
