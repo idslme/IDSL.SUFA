@@ -1,7 +1,7 @@
 # IDSL.SUFA<img src='SUFA_educational_files/Figures/IDSL.SUFA-logo.png' width="250px" align="right" />
 
 <!-- badges: start -->
-[![Creator](https://img.shields.io/badge/Creator-Sadjad_Fakouri_Baygi-blue)](https://github.com/sajfb)
+[![Developed-by](https://img.shields.io/badge/Developed_by-Sadjad_Fakouri_Baygi-blue)](https://github.com/sajfb)
 [![CRAN status](https://www.r-pkg.org/badges/version/IDSL.SUFA)](https://cran.r-project.org/package=IDSL.SUFA)
 ![](http://cranlogs.r-pkg.org/badges/IDSL.SUFA?color=orange)
 ![](http://cranlogs.r-pkg.org/badges/grand-total/IDSL.SUFA?color=brightgreen)
